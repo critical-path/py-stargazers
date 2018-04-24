@@ -66,7 +66,7 @@ To retrieve a list of stargazers associated with a given user and a given repo, 
 stargazers -u <user> -r <repo>
 ```
 
-To write the retrieved list of stargazers to disk, run stargazers with the --w option.
+To write the retrieved list of stargazers to disk, run stargazers with the -w option.
 
 ```
 stargazers -u <user> -w
