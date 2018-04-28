@@ -5,6 +5,6 @@ __version__ = "1.0.0"
 __author__ = "critical-path"
 
 __all__ = [
-    "stargazers_cli.py",
-    "stargazers_lib.py"
+    "stargazers_cli",
+    "stargazers_lib"
 ]
