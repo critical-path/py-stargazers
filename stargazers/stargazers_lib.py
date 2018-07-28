@@ -1,3 +1,6 @@
+"""The library of functions used by py-stargazers."""
+
+
 from requests import get
 
 
