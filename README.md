@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/critical-path/py-stargazers.svg?branch=master)](https://travis-ci.com/critical-path/py-stargazers)
+
 ## py-stargazers v1.0.0
 
 py-stargazers is a util that retrieves a list of stargazers for a given GitHub user and repo.
