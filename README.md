@@ -90,10 +90,10 @@ pylint stargazers
 cd ./tests
 ```
 
-3. Run pytest with the -v, --cov, and, --cov-report options.
+3. Run pytest with the -vv, --cov, --cov-report, and --cov-config options.
 
 ```
-pytest -v --cov=stargazers --cov-report=term-missing
+pytest -vv --cov=stargazers --cov-report=term-missing --cov-config=.coveragerc
 ```
 
 
