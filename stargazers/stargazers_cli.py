@@ -1,3 +1,6 @@
+"""The command-line interface for py-stargazers."""
+
+
 from json import dumps
 
 from click import (
