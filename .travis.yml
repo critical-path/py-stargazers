@@ -24,4 +24,4 @@ install:
 script:
   - pylint stargazers
   - cd ./tests
-  - py.test -vv --cov=stargazers --cov-report=term-missing --cov-config=.coveragerc
+  - py.test -vv --cov=stargazers --cov-branch --cov-report=term-missing --cov-config=.coveragerc
