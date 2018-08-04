@@ -5,7 +5,7 @@ from os import (
     stat
 )
 
-from stargazers.stargazers_lib import (
+from stargazers.lib import (
     get_repos,
     get_stargazers_for_all_repos,
     get_stargazers_for_one_repo,

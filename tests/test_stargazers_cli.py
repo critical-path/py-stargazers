@@ -7,7 +7,7 @@ from os import (
 
 from click.testing import CliRunner
 
-from stargazers.stargazers_cli import get_stargazers
+from stargazers.cli import get_stargazers
 
 from responses import (
     activate,

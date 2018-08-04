@@ -36,7 +36,7 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "stargazers=stargazers.stargazers_cli:get_stargazers"
+            "stargazers=stargazers.cli:get_stargazers"
         ]
     }
 )
