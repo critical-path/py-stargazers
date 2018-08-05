@@ -7,7 +7,7 @@ py-stargazers is a util that retrieves a list of stargazers for a given GitHub u
 
 ## Dependencies
 
-py-stargazers requires Python as well as the pip, click, requests, pylint, pytest, pytest-cov, and responses packages.
+py-stargazers requires Python as well as the pip, click, coveralls, requests, pylint, pytest, pytest-cov, and responses packages.
 
 
 ## Installing py-stargazers with test cases and testing dependencies
@@ -17,7 +17,7 @@ py-stargazers requires Python as well as the pip, click, requests, pylint, pytes
 2. Using sudo, run pip with the install command and the --editable option.
 
 ```
-sudo pip install --editable .[test] .
+sudo pip install --editable .[test]
 ```
 
 
@@ -84,16 +84,10 @@ stargazers -u <user> -r <repo> -w
 pylint stargazers
 ```
 
-2. Change to the tests directory.
+2. Run pytest with the -vv, --cov, and --cov-report options.
 
 ```
-cd ./tests
-```
-
-3. Run pytest with the -vv, --cov, --cov-branch, --cov-report, and --cov-config options.
-
-```
-pytest -vv --cov=stargazers --cov-branch --cov-report=term-missing --cov-config=.coveragerc
+pytest -vv --cov=stargazers --cov-report=term-missing
 ```
 
 
