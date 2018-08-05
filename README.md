@@ -87,7 +87,7 @@ pylint stargazers
 2. Run pytest with the -vv, --cov, and --cov-report options.
 
 ```
-pytest -vv --cov=stargazers --cov-report=term-missing
+pytest -vv --cov --cov-report=term-missing
 ```
 
 
