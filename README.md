@@ -7,7 +7,7 @@ py-stargazers is a util that retrieves a list of stargazers for a given GitHub u
 
 ## Dependencies
 
-py-stargazers requires Python as well as the pip, click, coveralls, requests, pylint, pytest, pytest-cov, and responses packages.
+py-stargazers requires Python as well as the pip, click, requests, coveralls, pylint, pytest, pytest-cov, and responses packages.
 
 
 ## Installing py-stargazers with test cases and testing dependencies
