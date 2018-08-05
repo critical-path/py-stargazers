@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/critical-path/py-stargazers.svg?branch=master)](https://travis-ci.com/critical-path/py-stargazers)
+[![Build Status](https://travis-ci.com/critical-path/py-stargazers.svg?branch=master)](https://travis-ci.com/critical-path/py-stargazers) [![Coverage Status](https://coveralls.io/repos/github/critical-path/py-stargazers/badge.svg)](https://coveralls.io/github/critical-path/py-stargazers)
 
 ## py-stargazers v1.0.0
 
