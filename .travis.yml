@@ -23,6 +23,7 @@ install:
   - pip install --editable .[test]
 
 script:
+  - radon mi --show stargazers
   - pylint stargazers
   - py.test -vv --cov --cov-report=term-missing
 
